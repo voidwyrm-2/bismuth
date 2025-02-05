@@ -1,0 +1,15 @@
+
+LIT 0
+@loop
+  (load the next character being printed onto the stack)
+  MODE self
+  LIT2 @str
+  ADDk
+  
+  INC
+  EVALk < 13
+  TJMP &loop
+
+@str
+  (length 13)
+  "Hello 32 "There. 10

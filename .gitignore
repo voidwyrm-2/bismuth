@@ -1,0 +1,25 @@
+## Nuclear Pasta gitignore ##
+
+# Git commiting shellscript
+commit.sh
+# Miscellaneous build folders
+build/
+test/build/
+compile/
+dist/
+bin/
+obj/
+# Zig build folders
+.zig-cache
+.zig-out
+# Mac folder settings
+.DS_Store
+# Visual Studio [Code] local config folders
+.vscode
+.vs
+# Cached compiled Python code
+__pycache__
+# Windows executable
+*.exe
+# binary files
+*.bin
