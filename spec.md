@@ -17,10 +17,13 @@ k | r | 2 | Opcode
 0. `MODE [mode]`
     **Modes**<br>
     0. console
-    1. file
+    1. system
     2. self
+    3. file
 1. `LIT [immediate]`
 2. `EVAL [operator]`
 3. `EVALI [operator] [immediate]`
 4. `TJMP [address]`
 5. `FJMP [address]`
+6. `MEMR`
+7. `MEMW`
